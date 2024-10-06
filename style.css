@@ -1,0 +1,29 @@
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.formContainer{
+    background-color: white;
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.formContainer form p{
+    padding: 10px;
+}
+.formContainer form p input,
+.formContainer form p textarea{
+    width: 100%;
+}
+.formContainer form button{
+    margin-top: 20px;
+    width: 100%;
+}
